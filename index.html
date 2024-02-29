@@ -37,12 +37,12 @@
         <h1 >Retriever</h1>
         <h3>Geheimnisse sicher übertragen</h3>
         <br>
-        <p class="lead mb-4">Retriever erfragt Geheimnisse sicher.<br> Die geheimen Daten landen direkt im Client und nicht im Web-Server.</p>
+        <p class="lead mb-4">Retriever fragt sicher nach Geheimnissen.<br> Die geheimen Daten landen direkt im Client und nicht im Web-Server.</p>
         <div class="col-lg-6 mx-auto">
 
         <div class="card p-3">
                 <div v-if="newSecret">
-                    <p class="lead mb-4">Diese URL muss dem Übermittler des Geheimnisses zugestellt werden.</p>
+                    <p class="lead mb-4">Diese URL muss mit dem Übermittler des Geheimnisses geteilt werden.</p>
                     <urlcopy :url="url"/>
                     
                 </div>
@@ -87,7 +87,7 @@
 
         <div v-if="newSecret" class="pt-5">
             <div class="col text-center">
-                <h2 style="font-weight: bold; font-size: 24px; margin-bottom: 30px; color: #333;">How it works</h2>
+                <h2 style="font-weight: bold; font-size: 24px; margin-bottom: 30px; color: #333;">Wie funktioniert es?</h2>
                 <div class="d-flex flex-column align-items-center">
                     <ol class="how-it-works" style="list-style-type: none; padding: 0; font-size: 16px; color: #555;">
                         <li style="display: flex; align-items: start; margin-bottom: 20px;">
